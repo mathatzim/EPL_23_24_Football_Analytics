@@ -3,13 +3,11 @@
 End-to-end football analytics project on **Premier League 2023–24** team performance using a single season-level dataset with **home/away splits** and **expected goals (xG)** features.
 
 This repository includes the **full written analysis** (the original “cut” section is now integrated into the full report):
-
 - `docs/EPL_23-24_Season_Analysis_Full.docx` (full report)
 - `docs/EPL_23-24_Season_Analysis_Main.docx` (original submission version)
 - `docs/EPL_23-24_Season_Analysis_CutSection.docx` (original cut text, kept for provenance)
 
 ## Analysis questions
-
 1. **How well does expected goal difference (xGD) explain actual goal difference (GD)?**
 2. **How strongly are points related to GD and xGD?**
 3. **How big is the home advantage (points + xG-based metrics)?**
@@ -61,12 +59,10 @@ python -m src.run_all
 Outputs are written to: `outputs/figures/`
 
 ## Repository structure
-
 - `src/` – clean, reproducible pipeline (metrics + logo-free plots)
 - `scripts/original/` – original coursework plotting scripts (kept as-is)
 - `data/` – dataset + provenance notes
 - `docs/` – report(s)
 
 ## Data
-
 Dataset source is referenced in the report and documented in `data/README.md`.
